@@ -39,5 +39,17 @@ print("Reversing the list")
 my_unsorted_list.reverse()
 print(my_unsorted_list)
 
+print("Adding an element at the end of the list")
+my_unsorted_list.append('Last Element')
+print(my_unsorted_list)
+
+print("Removing last element from the list")
+my_unsorted_list.pop()
+print(my_unsorted_list)
+
+print("Removing  element from the particular index")
+my_unsorted_list.pop(0)
+print(my_unsorted_list)
+
 
 
