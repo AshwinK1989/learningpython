@@ -1,16 +1,20 @@
-def decorator_test(func_passed):
-	
+def decorator_test(func_new):
+
 	def greet():
-		return 'This is a greet function'
+		return 'I am a function to greet'
+
+	func_new()
 
 	def welcome():
-		return 'This is a welcome function'
+		return 'I am a function to welcome'
 
-	func_passed()
 	print(greet())
+	print(func_new())
 	print(welcome())
 
 
+
 @decorator_test
-def check_Decorator():
-	print('Function needs to be decorated')
+def decorator_function():
+	print('I am the new function')
+	return 'I am the function to serve food'
